@@ -1,0 +1,14 @@
+/**app.wxss**/
+@import "miniprogram_npm/color-ui/main.wxss";
+@import "miniprogram_npm/color-ui/icon.wxss";
+@import "miniprogram_npm/color-ui/animation.wxss";
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+

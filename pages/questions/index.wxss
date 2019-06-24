@@ -1,0 +1,26 @@
+/* pages/questions/index.wxss */
+.s-card{
+  padding-top: 40rpx;
+  background-color:var(--cyanLight);
+}
+.card-p{
+  height: 250rpx;
+  margin: 30rpx auto !important;
+}
+.card-c{
+  height: 380rpx;
+  margin: 30rpx auto !important;
+}
+.card-img-primary{
+  height: 190rpx !important;
+}
+.cover-img-unfull{
+  height: 240rpx !important;
+}
+.tag-content{
+  margin-top: 20rpx;
+  display: flex;
+}
+.s-tag{
+  margin-right: 30rpx;
+}

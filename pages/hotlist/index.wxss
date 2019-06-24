@@ -1,0 +1,31 @@
+/* pages/hotlist/index.wxss */
+.s-content{
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 20rpx;
+  background: #fff;
+}
+.swipeable-header {
+  margin: 0 auto;
+  width: 327rpx !important;
+  border: none !important;
+}
+.swipeable-class-inactive {
+  border-width: 8rpx !important;
+}
+
+.head-line{
+  background: #fff !important;
+  border: none !important;
+}
+
+.swipeable-class-active {
+  font-weight: 900 !important;
+  font-size: 34rpx !important;
+  border-width: 6rpx !important;
+  color:#0081ff !important;
+}
+.line-class{
+  background:#0081ff !important;
+  width: 30rpx !important;
+}

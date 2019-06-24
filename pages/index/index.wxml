@@ -1,0 +1,43 @@
+<nav bgColor="bg-gradual-blue" isBack="{{false}}"><view slot="content">研具</view></nav>
+<view class="s-container">
+  <view class="bg-cyan text-center light shadow-blur">
+  <view class="s-add">
+    <l-icon name="add" color="#0081ff" size="180" bindtap="addProblem" />
+  </view>
+  <view class="radius-bottom">
+    <image src="https://image.weilanwl.com/gif/wave.gif" mode="scaleToFill" class="gif-black response" style="height:100rpx"></image>
+  </view>
+  </view>
+  <view class="s-text text-center text-shadow text-blue">
+    <view class="text-xxl">2020考研倒计时</view>
+  </view>
+  <view class="s-time">
+          <l-countdown l-class-time="countdown-blue" time="2019-12-22 08:30" time-type="datetime" l-class="countdown-text l-countdown" />
+  </view>
+  <view class="s-grid">
+    <l-grid>
+    <l-grid-item key="one" slot="one">
+        <view class="num">131</view>
+        <view class="text">错题</view>
+     </l-grid-item>
+    <l-grid-item key="two" slot="two">
+        <view class="num">34</view>
+        <view class="text">笔记</view>
+    </l-grid-item>
+    <l-grid-item key="three" slot="three">
+        <view class="num">48</view>
+        <view class="text">标签</view>
+    </l-grid-item>
+  </l-grid>
+</view>
+<view class="s-grid">
+<l-grid l-class-grid="grid-item" show-border="{{true}}">
+    <l-grid-item 
+      wx:for="{{grids1}}" wx:key="{{index}}" key="{{index}}" slot="{{index}}">
+        <text class="s-icon cuIcon-{{item.image}}"></text>
+        <view class="text">{{item.text}}</view>
+    </l-grid-item>
+</l-grid>
+</view>
+</view>
+

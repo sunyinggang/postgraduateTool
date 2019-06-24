@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "l-tabpanel": "../../miniprogram_npm/lin-ui/tabpanel/index"
+  }
+}

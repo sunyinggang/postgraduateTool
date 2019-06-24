@@ -1,0 +1,11 @@
+<nav bgColor="bg-gradual-blue" isBack="{{false}}"><view slot="content">提问</view></nav>
+<view class="s-content">
+  <l-tabs l-class-header="swipeable-header" l-class-inactive="swipeable-class-inactive" l-class-line="line-class" l-class-header-line="header-line" l-class-active="swipeable-class-active" active-key="one" bind:linchange="changeTabs" swipeable="{{true}}" aminmated-for-line="{{true}}">
+    <l-tabpanel tab="热榜" key="one" slot="one">
+      <view class="tab-content">暂未开放</view>
+    </l-tabpanel>
+    <l-tabpanel tab="我的提问" key="two" slot="two">
+      <view class="tab-content">暂未开放</view>
+    </l-tabpanel>
+  </l-tabs>
+</view>

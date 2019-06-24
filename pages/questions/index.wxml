@@ -1,0 +1,32 @@
+<nav bgColor="bg-gradual-blue" isBack="{{false}}"><view slot="content">错题</view></nav>
+<view class="s-card">
+	<view wx:for="{{[1,2,3,4,5,6,7,8,9,10]}}">
+		<view class="card-top"></view>
+
+			<l-card type="cover" l-class="card-c" l-img-class="cover-img-unfull" 
+						image="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549736747027&di=8e75e11a150193e0f8a555e107f921eb&imgtype=0&src=http%3A%2F%2Fwww.lanxu.net%2Fuploads%2Fallimg%2F20190201%2F201902010602093105.jpg">
+				<view class="content tag-content">
+					<view class="s-tag">
+						<l-tag bg-color="#39b54a" font-color="#39b54a" size="large" plain="{{true}}">标签</l-tag>
+					</view>
+					<view class="s-tag">
+						<l-tag bg-color="#39b54a" size="large">标签</l-tag>
+					</view>
+				</view>
+			</l-card>
+			<l-card type="cover" l-class="card-c" l-img-class="cover-img-unfull" 
+						image="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549736747027&di=8e75e11a150193e0f8a555e107f921eb&imgtype=0&src=http%3A%2F%2Fwww.lanxu.net%2Fuploads%2Fallimg%2F20190201%2F201902010602093105.jpg">
+				<view class="content tag-content">
+					<view class="s-tag">
+						<l-tag bg-color="#39b54a" font-color="#39b54a" size="large" plain="{{true}}">高数</l-tag>
+					</view>
+					<view class="s-tag">
+						<l-tag bg-color="#39b54a" size="large">积分不等式</l-tag>
+					</view>
+					<view class="s-tag">
+						<l-tag bg-color="#39b54a" size="large">不等式</l-tag>
+					</view>
+				</view>
+			</l-card>
+	</view>
+</view>

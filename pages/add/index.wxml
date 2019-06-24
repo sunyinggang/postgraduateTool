@@ -1,0 +1,1 @@
+<nav bgColor="bg-gradual-blue" isBack="{{true}}"><view slot="content">研具</view></nav>

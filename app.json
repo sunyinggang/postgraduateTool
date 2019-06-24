@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/hotlist/index",
+    "pages/index/index",
+    "pages/questions/index",
+    "pages/add/index",
+    "pages/message/index",
+    "pages/home/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "selectedColor": "#0081ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/questions/index",
+        "iconPath": "images/baby.png",
+        "selectedIconPath": "images/baby_fill.png",
+        "text": "错题"
+      },
+      {
+        "pagePath": "pages/hotlist/index",
+        "iconPath": "images/mark.png",
+        "selectedIconPath": "images/mark_fill.png",
+        "text": "提问"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_fill.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "nav": "miniprogram_npm/color-ui/nav/nav",
+    "l-card": "miniprogram_npm/lin-ui/card/index",
+    "l-tabbar": "miniprogram_npm/lin-ui/custom-tab-bar/index",
+    "l-tag": "miniprogram_npm/lin-ui/tag/index",
+    "l-tabs": "miniprogram_npm/lin-ui/tabs/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

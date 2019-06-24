@@ -1,0 +1,16 @@
+<nav bgColor="bg-gradual-blue" isBack="{{true}}"><view slot="content">消息</view></nav>
+<view class="v-card">
+  <view wx:for="{{[1,2,3,4,5,6,7,8,9,10]}}">
+    <view class="card-top"></view>
+    <l-card type="primary" plaintext l-class="card shadow" title="标题">
+    <view class="content">
+      大雄要死掉了,他对妻子说:我死之后你找一个男人我就在地下打一一个滚。说完就咽气了。
+    </view>
+  </l-card>
+</view>
+<view class='tabbar-wrapper'>
+  <l-tabbar
+    position="custom"
+    list="{{ConfigBar.list}}"/> 
+</view>
+</view>
